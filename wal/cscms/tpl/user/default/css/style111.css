@@ -1,0 +1,109 @@
+/**
+* @cscms4.x open source management system
+* @copyright 2009-2015  All rights reserved.
+* @Author:Cheng Jie
+* @Dtime:2015-01-17
+*/
+/*全局*/
+
+
+/*登入、搜索*/
+#nav {margin-top:58px;height:40px;background:#fff;clear:both;border-bottom:#e6e6e6 solid 1px;}
+#nav {position:fixed;left:0px;top:0px; z-index:1000; width:100%;}
+#nav .navs{width:1000px;margin:0px auto;}
+#nav .login{width:650px;height:40px;line-height:40px;float:left;color:#111;font-size:14px;}
+#nav .logintxt{width:100px;height:23px;line-height:22px;border:#ddd solid 1px;}
+#nav .login a{padding-left:3px;}
+#nav .login_but{margin-left:10px;cursor:pointer;background:#666;border:0;color:#fff;width:60px;height:24px;line-height:24px;text-align:center;}
+#nav .login_but:hover{background:#444}
+#nav .serach{width:350px;padding-top:6px;float:right;font-size:12px;}
+#nav .seh_list{float:left}
+#nav .seh_m{float:left}
+#nav .seh_v{border-top:1px solid #ddd;border-bottom:1px solid #ddd;border-left:0;border-right:0;height:23px;padding:2px 4px;line-height:23px;float:left;width:205px;outline:none}
+#nav .seh_b{background:#ffae00;border:0;color:#fff;width:60px;height:29px;line-height:28px;float:left;text-align:center;padding:0;cursor:pointer}
+#nav .seh_b:hover{background:#ff9c00}
+#nav .arrow{padding-left:14px;border-right:1px solid #ddd;}
+#nav .seh_list{width:50px;border:1px solid #ddd;border-right:0;background:#fff;position:relative;z-index:10000}
+#nav .seh_list_a{width:48px;position:relative;display:block;color:#666;height:16px;line-height:16px;_line-height:18px;padding:6px 0 5px;font-weight:400;text-indent:8px;background:#fff;border-right:2px solid #fff}
+#nav .seh_list_a_clo{border-right:2px solid #ddd}
+#nav .seh_list_a:link,.seh_list_a:visited{color:#666}
+#nav .seh_list_a:hover{color:#e00}
+#nav .seh_list_a .arrow{left:36px;top:13px}
+#nav .seh_sort{position:absolute;background:#fff;left:-1px;top:21px;border:1px solid #ddd;border-top:none;padding:4px 0 8px;line-height:22px}
+#nav .seh_sort a{display:block;width:46px;padding-top:5px;text-indent:8px;height:20px;line-height:20px;border-top:#ddd solid 1px;}
+
+
+
+
+/* 登陆注册页 */
+#cscms_user .login .bd .text {width: 250px;}
+#cscms_user .login,#cscms_user .login-other {float: left;margin: 20px 0;}
+#cscms_user .login {border-right: 1px solid #DDDDDD;padding-right: 20px;width: 350px;}
+#cscms_user .login .hd {height: 36px;line-height: 36px;}
+#cscms_user .login .hd strong {font-size: 30px;font-weight: normal;color: #000;}
+#cscms_user .login .hd span {margin-left: 24px;font-size: 16px;color: #999999;}
+#cscms_user .login .hd a {margin-left: 6px;color: #007DDB;vertical-align: -1px;}
+#cscms_user .login .bd {margin: 10px 0 30px;}
+
+/* 其他登陆 */
+.login-other {display: inline;float: left;margin-left: -1px;padding-left: 30px;border-left: 1px solid #DDDDDD;}
+.login-other .hd {padding-left: 0;height: 36px;line-height: 36px;text-align: center;}
+.login-other .hd strong {font-size: 16px;font-weight: normal;color: #999999;}
+.other-account {padding-left: 30px;}
+.other-account li { margin: 6px 0;}
+.other-account li a { display: inline-block;width: 240px;height: 36px; line-height: 36px; font-size: 16px; text-align: center; color: #007DDB;background: none repeat scroll 0 0 #EEEEEE;}
+
+/* 发布表单 */
+.think-form {padding: 15px;font-size: 16px;}
+
+/* 发布表单-头部用户信息栏 */
+.think-form .hd {position: relative;margin: 0 0 20px 12px;padding-left: 30px;}
+.think-form .hd-info {height: 22px;line-height: 25px;}
+.think-form .hd-info .time {margin-left: 20px;color: #C0C0C0;}
+.think-form .hd-title {height: 22px;line-height: 35px;color: #C0C0C0;}
+
+/* 发布表单-表单项 */
+.think-form table.bd {width: 100%;border-spacing: 0 10px;}
+.think-form th {padding-right: 20px; width: 77px;height: 30px;line-height: 30px;font-weight: normal;vertical-align: top;text-align: right;}
+.think-form .must {margin-right: 6px;font-style: normal;color: #00A651;vertical-align: -3px;}
+.think-form .text {padding: 3px;width: 340px;height: 24px;line-height: 24px;border: 1px solid #D4D4D4;}
+.think-form select {padding: 3px;height: 28px;border: 1px solid #CCCCCC;}
+.think-form .add-remark { border: 1px solid #CCCCCC;}
+.think-form .add-remark textarea {padding: 0; width: 100%;height: 80px;border: 0 none;}
+.think-form .verify {margin-right: 5px;padding: 3px;width: 100px;height: 24px;line-height: 24px; font-size: 16px;border: 1px solid #CCCCCC;}
+.think-form .verifyimg {margin-top: 9px;}
+.think-form .submit { padding: 0 24px;height: 30px;line-height: 21px;font-size: 16px;color: #FFFFFF;cursor: pointer;border: 0 none;background-color: #348FD4;}
+.think-form .submit:hover {background-color: #2F81BF;}
+.think-form .init-color {color: #8E8E8E;}
+.remind {margin-bottom: 10px;padding: 3px 0 3px 10px;line-height: 1.8;color: #5D9018;background-color: #D8EAC0;}
+.cols-in {width: 348px;}
+.pub-mr {margin-right: 55px;}
+.think-form .o_link {color: #007DDB;}
+.think-form .o_link.ml {margin-left: 30px;}
+.think-form .Validform_checktip {height: 20px;}
+.mb25 {margin-bottom: 25px;}
+.think-form .ali-link {margin-top: 8px;}
+.think-form .ali-link a {font-size: 14px;color: #0094D8;}
+
+
+/*Validform*/
+.Validform_checktip{ margin-left:2px; font-size: 14px; overflow:hidden; color:#999; display:inline-block; min-width:50px; vertical-align:middle; }
+.Validform_right { color:#71b83d; padding-left:5px; background:url(http://www.tonghuangkj.cn/cscms/tpl/user/default/images/right.png) no-repeat left center; text-indent:-9999px; }
+.Validform_wrong { color:red; padding-left:5px; white-space:nowrap;	}
+.Validform_loading { padding-left:5px; background:url(http://www.tonghuangkj.cn/cscms/tpl/user/default/images/onLoad.gif) no-repeat left center; }
+.Validform_error { background-color:#ffe7e7; }
+.popLogin .Validform_right,
+.popLogin .Validform_wrong,
+.popLogin .Validform_loading { padding-left:0; }
+#Validform_msg{color:#7d8289; font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif; width:280px; -webkit-box-shadow:2px 2px 3px #aaa; -moz-box-shadow:2px 2px 3px #aaa; background:#fff; position:absolute; top:0px; right:50px; z-index:99999; display:none;filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#999999');}
+#Validform_msg .iframe{position:absolute; left:0px; top:-1px; z-index:-1;}
+#Validform_msg .Validform_title{line-height:25px; height:25px; text-align:left; font-weight:bold; padding:0 8px; color:#fff; position:relative; background-color:#000;}
+#Validform_msg a.Validform_close:link,#Validform_msg a.Validform_close:visited{line-height:22px; position:absolute; right:8px; top:0px; color:#fff; text-decoration:none;}
+#Validform_msg a.Validform_close:hover{color:#cc0;}
+#Validform_msg .Validform_info{padding:8px;border:1px solid #000; border-top:none; text-align:left;}
+/* 表单验证样式 */
+.Validform_checktip {padding-left: 20px;}
+.Validform_right {color: #72B939;background: url(http://www.tonghuangkj.cn/cscms/tpl/user/default/images/right.png) no-repeat 0 center;}
+.Validform_wrong {color: #F00;background: url(http://www.tonghuangkj.cn/cscms/tpl/user/default/images/wrong.png) no-repeat 0 center;}
+.talk-dialog {display: block;position: fixed;bottom: 250px;margin-left: 1020px;width: 100px;height: 50px;line-height: 50px;text-align: center;background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#ccc));background-image: -moz-linear-gradient(top, #ececec, #ccc);background-image: linear-gradient(top, #fff, #ccc);}
+

@@ -1,0 +1,354 @@
+/* AB模版�?做最好的织梦整站模板下载网站 */
+/* 网址：Www.AdminBuy.Cn */
+/* 图标大全：Sc.AdminBuy.Cn 专业建站素材网站 */
+/* QQ�?490489 */
+
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	color: black;
+	font-family: "微软雅黑";
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+img, input {
+	border: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+.pageTop {
+	width: 1154px;
+	height: 112px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo {
+	float: left;
+}
+.pageTRight {
+	float: right;
+	width: 300px
+}
+.pageTRight p {
+	line-height: 38px;
+	float: right;
+}
+.pageTRight p a {
+	font-size: 14px;
+	margin: 0 5px;
+}
+.pageTRight ul {
+	clear: both;
+}
+.pageTRight ul li {
+	background: url(../../../user/default/image/phone.png) no-repeat left 0;
+	font-size: 20px;
+	font-weight: bold;
+	color: #2ea7e0;
+	padding-left: 59px;
+	line-height: 52px;
+}
+.nav {
+	height: 55px;
+	background: #2ea7e0;
+}
+.navBox {
+	width: 1148px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.linob {
+	background-image: none !important
+}
+.libh a {
+	
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+.menu .mainlevel {
+	float: left;
+	line-height: 55px;
+	padding: 0;
+	height: 55px;
+	display: inline;
+	width: 185px
+}
+.menu .mainlevel a {
+	font-size: 16px;
+	text-decoration: none;
+	height: 55px;
+	line-height: 55px;
+	display: block;
+	color: white;
+	text-align: center;
+}
+.menu .mainlevel a:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #CC5E9D;
+}
+.menu .mainlevel ul {
+	display: none;
+	position: absolute;
+	z-index: 9999;
+}
+.menu .mainlevel li {
+	border-top: 1px solid #fff;
+	background-color: #3c3c3c;
+	width: 164px;
+}
+.menu .mainlevel li a {
+	color: white
+}
+.full_banner {
+	width: 100%;
+	position: relative;
+	height: 700px;
+	background: #FFF;
+	overflow: hidden;
+}
+.full_banner .bd {
+	margin: 0 auto;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+}
+.full_banner .bd ul {
+	width: 100% !important;
+}
+.full_banner .bd li {
+	width: 100% !important;
+	float: left;
+	height: 700px;
+	overflow: hidden;
+	text-align: center;
+}
+.full_banner .bd li a {
+	display: block;
+	height: 700px;
+}
+.full_banner .hd {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.full_banner .hd ul {
+	text-align: center;
+}
+.full_banner .hd ul li {
+	cursor: pointer;
+	display: inline-block;
+*display:inline;
+	zoom: 1;
+	width: 40px;
+	height: 10px;
+	margin: 5px;
+	background: url(../../../user/default/image/tg_flash_p.png) -50px 0;
+	overflow: hidden;
+	line-height: 9999px;
+}
+.full_banner .hd ul .on {
+	background-position: 0px 0px;
+}
+.Profile {
+	width: 1084px;
+	margin: 0 auto;
+	overflow: hidden;
+	height: 320px;
+}
+.Profile img {
+	float: left;
+	margin-top: 25px;
+	display: block;
+	width: 270px;
+	height: 270px;
+}
+.proRight {
+	float: right;
+	width: 710px;
+}
+.proRight p {
+	font-size: 14px;
+	line-height: 30px;
+	margin: 50px 0 28px 0;
+}
+.proRight input {
+	display: block;
+	color: white;
+	font-size: 14px;
+	width: 135px;
+	height: 32px;
+	background-color: #26E7EC;
+	cursor: pointer
+}
+.otherLine {
+	clear: both;
+	background: url(../../../user/default/image/otherPic.png) no-repeat center 0;
+	padding: 34px 0;
+}
+.OtherBox {
+	width: 1154px;
+	margin: 0 auto;
+	overflow: hidden;
+	height: 210px;
+}
+.OtherBox img {
+	display: block;
+	width: 210px;
+	height: 210px;
+}
+.linkPic01, .ABPart, .SerPart {
+	float: left;
+}
+.linkPic02 {
+	float: left;
+	margin-left: 275px;
+}
+.linkPic03 {
+	float: right;
+}
+.messLine {
+	width: 1154px;
+	margin: 90px auto;
+	overflow: hidden;
+	height: 225px;
+}
+.newsPart {
+	width: 1154px;
+	margin: 0 auto;
+}
+.newsCon {
+	overflow: hidden;
+	margin: 45px auto 35px;
+	height: 207px;
+}
+.messLine img {
+	display: block;
+	margin: 0 auto
+}
+.messLine h3 {
+	font-size: 16px;
+	text-align: center;
+	line-height: 35px;
+}
+.messLine h1 {
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 38px;
+}
+.ABPart, .SerPart {
+	width: 360px;
+}
+.SerPart {
+	margin: 0 90px;
+}
+.ContPart {
+	float: right;
+	width: 250px;
+}
+.messLine p, .messLine p a, .ContPart ul li, .rightText dl dt {
+	font-size: 12px;
+	line-height: 24px;
+}
+.messLine p a:hover, .rightText dl dd a:hover, .rightText dl dt a:hover, .newsPart .more:hover, .pageBotm p a:hover {
+	text-decoration: underline;
+}
+.newsLine {
+	clear: both;
+	background: url(../../../user/default/image/newsBg.png) no-repeat center 0;
+	padding: 60px 0;
+	height: 306px;
+}
+.newsLine h3, .newsLine h1 {
+	text-align: center;
+	color: white;
+}
+.newsLine h3 {
+	font-size: 18px;
+}
+.newsLine h1 {
+	font-size: 16px;
+}
+.leftNews {
+	float: left;
+	width: 550px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.rightNews {
+	float: right;
+	width: 550px;
+}
+.leftNPic {
+	float: left;
+	width: 297px;
+	height: 207px;
+	background-color: white;
+}
+.leftNPic a img {
+	display: block;
+	width: 284px;
+	height: 195px;
+	margin: 6px auto;
+}
+.rightText {
+	float: right;
+	width: 240px;
+}
+.rightText dl dd {
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+.rightText dl dd a, .rightText dl dt a {
+	color: white;
+}
+.rightText dl dd a {
+	font-size: 16px;
+}
+.rightText dl dt a {
+	font-size: 12px;
+}
+.newsPart .more {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+}
+.pageBotm {
+	background-color: #f5f5f5;
+	padding: 50px 0;
+}
+.pageBotm p {
+	text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+}
+.pageBotm p span {
+	font-size: 14px;
+	margin: 0 20px;
+}
+.pageBotm p a {
+	font-size: 14px;
+}
+
+.pagess {clear: both;margin: 20px;overflow: hidden;margin-left: 0px;text-align: center;font-size:12px}
+.pagess ul li { display:inline-block;border: 1px solid #ccc;padding: 2px 9px;margin: 0 3px;line-height: 20px;background: #fff;color:#999}
+.pagess ul li:hover{ background:#ccc; color:#fff;border: 1px solid #ccc}
+.pagess ul li:hover a{color:#fff;}
+.pagess ul li.thisclass {display: inline-block;border: 1px solid #ccc;padding: 2px 9px;margin: 0 3px;background: #ccc;color: #fff;}
+.pagess ul li.thisclass a {color: #fff;}
+.pagess ul li a{ display:block;color:#999}
+.pagess ul li a:hover {color: #fff;}
